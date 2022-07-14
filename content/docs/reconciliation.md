@@ -107,7 +107,7 @@ For example, when adding an element at the end of the children, converting betwe
 
 React will match the two `<li>first</li>` trees, match the two `<li>second</li>` trees, and then insert the `<li>third</li>` tree.
 
-If you implement it naively, inserting an element at the beginning has worse performance. For example, converting between these two trees works poorly:
+If you implement it natively, inserting an element at the beginning has worse performance. For example, converting between these two trees works poorly:
 
 ```xml
 <ul>
